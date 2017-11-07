@@ -1,6 +1,3 @@
-//Original Version with change for private use only - not distribution
-//Original URL https://github.com/fechanique/cordova-plugin-fcm
-//Author of Fork is Heather Wolford
 {
   "version": "2.1.2", 
   "name": "cordova-plugin-fcm",
