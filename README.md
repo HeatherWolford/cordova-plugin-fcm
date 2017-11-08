@@ -1,9 +1,11 @@
 # Google Firebase Cloud Messaging Cordova Push Plugin
-> Extremely easy plug&play push notification plugin for Cordova applications with Google Firebase FCM.
+> fechanique/cordova-plugin-fcm, version 2.1.2 (03/06/2017) is an extremely easy plug&play push notification plugin for Cordova applications with Google Firebase FCM.  This is a fork of that plugin.
 
 >[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VF654BMGUPQTJ)
 
 #### Version 2.1.2 (03/06/2017)
+- Note, this is a forked from fechanique/cordova-plugin-fcm, version 2.1.2 (03/06/2017)
+- This fork is intened to resolve a conflict found when adding to project also using cordova-plugin-firebase-analytics (0.11.0) which requires the implementation of cordova-support-google-service (1.0.0).
 - Tested on Android and iOS using Cordova cli 6.4.0, Cordova android 6.0.0 and Cordova ios 4.3.1
 - Available sdk functions: onTokenRefresh, getToken, subscribeToTopic, unsubscribeFromTopic and onNotification
 - 'google-services.json' and 'GoogleService-Info.plist' are added automatically from Cordova project root to platform folders
@@ -13,7 +15,7 @@
 ## Installation
 Make sure you have ‘google-services.json’ for Android or  ‘GoogleService-Info.plist’ for iOS in your Cordova project root folder. You don´t need to configure anything else in order to have push notification working for both platforms, everything is magic.
 ```Bash
-cordova plugin add cordova-plugin-fcm
+cordova plugin add https://github.com/HeatherWolford/cordova-plugin-fcm.git
 
 ```
 
